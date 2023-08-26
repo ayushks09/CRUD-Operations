@@ -1,0 +1,21 @@
+<h1>Update Employee</h1>
+<form method="post" action="/updUser">
+      <div class="form-group">
+      <label>Name </label>
+      <input type="text" class="form-control" placeholder="Enter Name" name="name" value="{{user.name}}">
+    </div>
+          <div class="form-group">
+      <label>Email </label>
+      <input type="email" class="form-control" placeholder="Enter Email" name="email" value="{{user.email}}" readonly >
+    </div>
+          <div class="form-group">
+      <label>PHone </label>
+      <input type="text" class="form-control" placeholder="Enter Phone" name="mobile" value="{{user.phone}}">
+    </div>
+          <div class="form-group">
+      <label>City </label>
+      <input type="text" class="form-control" placeholder="Enter City" name="city" value="{{user.city}}">
+    </div>
+    <br/>
+    <input type="submit" class="btn btn-primary" value="SAVE"/>
+</form>
